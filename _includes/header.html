@@ -1,8 +1,6 @@
 <header class="site-header">
 
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="wrapper site-nav-wrapper">
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,14 +12,21 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
+        {% for my_page in site.nav_links %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
           {% endif %}
         {% endfor %}
       </div>
     </nav>
 
+    <nav class="site-nav-vertical">
+      {% for my_page in site.nav_links %}
+        {% if my_page.title %}
+        <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
   </div>
 
 </header>
