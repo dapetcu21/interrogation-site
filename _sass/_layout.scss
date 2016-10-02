@@ -169,31 +169,14 @@ body.ie9 { // IE <= 9 doesn't support backface-visibility
   padding: $spacing-unit 0;
 }
 
-.page-heading {
+.section p {
+  text-align: justify;
+}
+
+.section h1 {
   font-size: 30px;
   font-weight: 200;
 }
-
-.post-list {
-  margin-left: 0;
-  list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
-
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-}
-
-.post-link {
-  display: block;
-  font-size: 24px;
-}
-
-
 
 /**
 * Posts
