@@ -95,24 +95,55 @@
 
 .site-nav-wrapper {
   position: relative;
+  perspective: 1000px;
 }
 
-.site-nav-vertical {
+.site-nav-front,
+.site-nav-back {
   @include media-query($on-laptop) {
     display: none;
   }
 
   position: absolute;
   top: $spacing-unit;
-  right: 0;
-  padding-right: 30px;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
+  transition: all .3s ease-in-out;
 
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 0;
-    text-align: right;
+  }
+}
+
+.site-nav-front {
+  transform-origin: 100% 50%;
+  right: 15px;
+  padding-right: 15px;
+  .page-link { text-align: right; }
+}
+
+.site-nav-back {
+  transform-origin: 0% 50%;
+  left: $content-width - 15px;
+  padding-left: 15px;
+  .page-link { text-align: left; }
+}
+
+.site-nav-back { transform: rotateY(-180deg); }
+body.scrolled {
+  .site-nav-front { transform: rotateY(180deg); }
+  .site-nav-back { transform: rotateY(0); }
+}
+
+body.ie9 { // IE <= 9 doesn't support backface-visibility
+  .site-nav-back { display: none; transform: rotateY(0); }
+  body.scrolled {
+    .site-nav-front { display: none; transform: rotateY(0); }
+    .site-nav-back { display: block; transform: rotateY(0); }
   }
 }
 
