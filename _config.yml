@@ -30,3 +30,8 @@ nav_links:
 
 # Build settings
 markdown: kramdown
+gems:
+  - kramdown
+  - jekyll-autoprefixer
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
