@@ -3,10 +3,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% capture og_description %}{% if page.og_description %}{{ page.og_description }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}{% endcapture %}
+
+  {% capture og_title %}{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}{% endcapture %}
+
+  {% capture og_url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
+
+  {% capture og_type %}{% if page.og_type %}{{ page.og_type }}{% else %}{{ site.og_type }}{% endif %}{% endcapture %}
+
+  {% capture og_image %}{% if page.og_image %}{{ page.og_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.og_image | prepend: site.baseurl | prepend: site.url }}{% endif %}{% endcapture %}
+
+  <title>{{ og_title }}</title>
+  <meta name="description" content="{{ og_description }}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ og_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <meta property="og:title" content="{{ og_title }}" />
+  <meta property="og:url" content="{{ og_url }}" />
+  <meta property="og:description" content="{{ og_description }}" />
+  <meta property="og:type" content="{{ og_type }}" />
+  <meta property="og:type" content="{{ og_image }}" />
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ og_url }}">
+  <meta name="twitter:title" content="{{ og_title }}">
+  <meta name="twitter:description" content="{{ og_description }}">
+  <meta name="twitter:image" content="{{ og_image }}">
 </head>
