@@ -40,7 +40,19 @@ In the fully developed game we also want to explore:
 
 # Screenshots
 
-Aicia incep screenshots
+![](/images/screenshots/Screenshot%207.png)
+
+![](/images/screenshots/Screenshot%201.png)
+
+![](/images/screenshots/Screenshot%208.png)
+
+![](/images/screenshots/Screenshot%206.png)
+
+![](/images/screenshots/Screenshot%204.png)
+
+![](/images/screenshots/Screenshot%205.png)
+
+![](/images/screenshots/Screenshot%2010.png)
 
 # Prototype
 
@@ -48,4 +60,4 @@ If you want to try out the current prototype, check it out [on Itch.io](https://
 
 # Press kit
 
-If you are press, don't forget to visit our [press kit](https://presskit.critique-gaming.com/interrogation).
+If you are press, don't forget to visit our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation).
