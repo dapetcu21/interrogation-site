@@ -1,10 +1,13 @@
-<h1>Blog</h1>
+---
+layout: default
+---
+
+{% include logo.html %}
+
+<h1>Blog posts</h1>
 
 <ul class="post-list">
   {% for post in site.posts %}
-    {% if forloop.index > 2 %}
-      {% break %}
-    {% endif %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -20,4 +23,4 @@
   {% endfor %}
 </ul>
 
-<p>Read <a href={{ "/blog" | prepend: site.baseurl }}>more posts...</a></p>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

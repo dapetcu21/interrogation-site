@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img class="page-logo" src="{{ "/images/critique_logo_white.svg" | prepend: site.baseurl }}"></img>
+{% include logo.html %}
 
 <div class="section section-interrogation" id="interrogation">
   {% capture interrogation %}{% include sections/interrogation.md %}{% endcapture %}
