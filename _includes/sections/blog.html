@@ -1,18 +1,24 @@
 <h1>Blog</h1>
 
-<p>Blog preview (2 article summaries) placeholder</p>
-
-<!-- <ul class="post-list">
+<ul class="post-list">
   {% for post in site.posts %}
+    {% if forloop.index > 2 %}
+      {% break %}
+    {% endif %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
+
+      <p class="post-excerpt">
+        {{ post.excerpt | strip_html }}
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">read more...</a>
+      </p>
     </li>
   {% endfor %}
 </ul>
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

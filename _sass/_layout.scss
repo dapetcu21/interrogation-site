@@ -180,6 +180,20 @@ body.ie9 { // IE <= 9 doesn't support backface-visibility
 }
 
 /**
+* Section-specific
+*/
+
+.section-interrogation a > img {
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+
+.section-interrogation a:hover > img,
+.section-interrogation a:active > img {
+  opacity: 0.8;
+}
+
+/**
 * Posts
 */
 .post-header {
