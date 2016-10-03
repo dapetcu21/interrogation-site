@@ -7,12 +7,17 @@ og_image: /images/og_image_interrogation.png
 <img class="page-logo interrogation-logo" src="{{ "/images/interrogation_logo.png" | prepend: site.baseurl }}">
 
 # Trailer
-Trailer here
+
+<div class="yt-container">
+<iframe src="//www.youtube.com/embed/_LsZoggH660" frameborder="0" allowfullscreen class="yt-video"></iframe>
+</div>
 
 # About
+
 **Interrogation** is a narrative game that emulates the atmosphere of dark investigation procedurals to put the player in the detective’s seat and challenge their preconceptions with noire intensity. The game is intended to emulate the tropes related to interrogation scenes in pop-culture while also offering some deconstruction. It plays as a questions-based puzzle against a (5 minute) clock in which the player must manage the emotions of suspects and interpret information into discovering details about future terrorist attacks.
 
 # Features
+
 The current prototype's features:
 
 * Noire art and custom soundtrack in increasingly heavier rhythm for deep immersion and tension
