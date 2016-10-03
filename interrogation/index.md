@@ -40,19 +40,19 @@ In the fully developed game we also want to explore:
 
 # Screenshots
 
-![](/images/screenshots/Screenshot%207.png)
+![](/images/screenshots/Screenshot_7.png)
 
-![](/images/screenshots/Screenshot%201.png)
+![](/images/screenshots/Screenshot_1.png)
 
-![](/images/screenshots/Screenshot%208.png)
+![](/images/screenshots/Screenshot_8.png)
 
-![](/images/screenshots/Screenshot%206.png)
+![](/images/screenshots/Screenshot_6.png)
 
-![](/images/screenshots/Screenshot%204.png)
+![](/images/screenshots/Screenshot_4.png)
 
-![](/images/screenshots/Screenshot%205.png)
+![](/images/screenshots/Screenshot_5.png)
 
-![](/images/screenshots/Screenshot%2010.png)
+![](/images/screenshots/Screenshot_10.png)
 
 # Prototype
 
