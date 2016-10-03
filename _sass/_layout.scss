@@ -186,7 +186,7 @@ body.ie9 { // IE <= 9 doesn't support backface-visibility
 */
 
 .section-interrogation a > img {
-  transition: all 0.5s ease;
+  transition: opacity 0.5s ease;
   opacity: 1;
 }
 
