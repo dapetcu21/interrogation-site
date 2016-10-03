@@ -25,6 +25,10 @@ body {
   font-kerning: normal;
 }
 
+p {
+  color: $small-text-color;
+}
+
 
 
 /**
@@ -128,9 +132,8 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $pre-color;
 }
 
 code {
