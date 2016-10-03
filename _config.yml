@@ -18,6 +18,7 @@ og_image: /images/og_image.png
 og_image_width: 1200
 og_image_height: 1200
 og_type: website
+fb_app_id: 1653261584986384
 nav_links:
   - title: Interrogation
     url: /interrogation
