@@ -6,6 +6,7 @@
   left: 0;
   right: 0;
   position: fixed;
+  z-index: 1000;
 
   @include media-query($on-laptop) {
     border-bottom: $grey-color-light solid 1px;
@@ -43,6 +44,11 @@
     }
   }
 
+  .nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+  }
+
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
@@ -76,7 +82,7 @@
       display: none;
     }
 
-    &:hover .trigger {
+    .nav-trigger:checked + .trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -172,11 +178,7 @@ body.ie9 { // IE <= 9 doesn't support backface-visibility
 
 .section p {
   text-align: justify;
-}
-
-.section h1 {
-  font-size: 30px;
-  font-weight: 200;
+  color: $small-text-color;
 }
 
 /**
@@ -192,6 +194,45 @@ body.ie9 { // IE <= 9 doesn't support backface-visibility
 .section-interrogation a:active > img {
   opacity: 0.8;
 }
+
+.section-about .team-profile {
+  @extend %clearfix;
+  width: 100%;
+  h2 {
+    margin-bottom: $spacing-unit / 4;
+  }
+  h3 {
+    margin-bottom: $spacing-unit * (3 / 4);
+  }
+
+  @include media-query($on-palm) {
+    h2, h3 {
+      text-align: center;
+    }
+  }
+}
+
+.section-about .team-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 9px $spacing-unit ($spacing-unit - 9px + 20px) $spacing-unit;
+  &.team-pic-left { float: left; margin-left: 0; }
+  &.team-pic-right { float: right; margin-right: 0; }
+
+  @include media-query($on-palm) {
+    &.team-pic-left,
+    &.team-pic-right {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    display: block;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit - 20px;
+  }
+}
+
 
 /**
 * Posts

@@ -14,7 +14,7 @@
   }
   onScroll();
 
-  //Debounce the scroll event
+  // Debounce the scroll event
 
   var nextAllowedScroll = 0;
   var scheduledFire = 0;
@@ -34,4 +34,16 @@
     nextAllowedScroll = time + 200;
     onScroll();
   }
+
+  // Close nav menu when link clicked
+  var nav = window.document.getElementById('nav-trigger');
+  function closeNav() {
+    nav.checked = false;
+  }
+
+  var links = window.document.getElementsByClassName('page-link');
+  for (var i = 0; i < links.length; i++) {
+    links[i].onclick = closeNav;
+  }
+
 })();

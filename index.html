@@ -14,8 +14,7 @@ layout: default
 </div>
 
 <div class="section section-about" id="about">
-  {% capture about %}{% include sections/about.md %}{% endcapture %}
-  {{ about | markdownify }}
+  {% include sections/about.html %}
 </div>
 
 <div class="section section-contact" id="contact">
