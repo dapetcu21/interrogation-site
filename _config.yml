@@ -15,6 +15,9 @@ url: "http://critique-staging.petcu.me" # the base hostname & protocol for your 
 twitter_username: Critique_Gaming
 facebook_username:  CritiqueGaming
 og_image: /images/og_image.png
+og_image_width: 1200
+og_image_height: 1200
+og_type: website
 nav_links:
   - title: Interrogation
     url: /interrogation
