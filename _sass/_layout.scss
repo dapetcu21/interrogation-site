@@ -114,6 +114,7 @@
   top: $spacing-unit;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 
   transition: all .3s ease-in-out;
 
