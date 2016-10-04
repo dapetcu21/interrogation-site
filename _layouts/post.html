@@ -2,6 +2,26 @@
 layout: default
 ---
 
+{% if site.fb_app_id %}
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : {{ site.fb_app_id }},
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+{% endif %}
+
 {% include logo.html %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -16,3 +36,11 @@ layout: default
   </div>
 
 </article>
+
+{% if site.fb_app_id %}
+{% capture og_url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
+<div class="fb-comments-container">
+  <div class="fb-comments" data-href="{{ og_url }}" data-numposts="5" data-colorscheme="dark" data-width="100%">
+  </div>
+</div>
+{% endif %}

@@ -16,7 +16,7 @@ layout: default
       </h2>
 
       <p class="post-excerpt">
-        {{ post.excerpt | strip_html }}
+        {{ post.excerpt | strip_html | truncate: 300 }}
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">read more...</a>
       </p>
     </li>

@@ -180,6 +180,18 @@ body.ie9 { // IE <= 9 doesn't support backface-visibility
   text-align: justify;
 }
 
+.page-content img {
+  display: block;
+  &.mw50 { max-width: 50%; }
+  &.mw75 { max-width: 75%; }
+  &.mw66 { max-width: 66%; }
+  @include media-query($on-palm) {
+    max-width: 100% !important;
+  }
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /**
 * Section-specific
 */
@@ -303,4 +315,10 @@ body.ie9 { // IE <= 9 doesn't support backface-visibility
       font-size: 18px;
     }
   }
+}
+
+.fb-comments-container {
+  margin-right: -8px;
+  margin-left: -8px;
+  width: calc(100% + 16px);
 }

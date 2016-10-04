@@ -9,16 +9,21 @@
 title: Critique Gaming
 email: office@critique-gaming.com
 description: We're a video game development company, based in Bucharest, Romania, excited about producing socially responsible video games.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://staging.critique-gaming.com" # the base hostname & protocol for your site
-twitter_username: Critique_Gaming
-facebook_username:  CritiqueGaming
+
 og_image: /images/og_image.png
 og_image_width: 1200
 og_image_height: 1200
 og_type: website
 fb_app_id: 1653261584986384
 google_analytics_ua: UA-18276515-5
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://staging.critique-gaming.com" # the base hostname & protocol for your site
+
+twitter_username: Critique_Gaming
+facebook_username:  CritiqueGaming
+
+excerpt_separator: "<!--more-->"
 nav_links:
   - title: Interrogation
     url: /interrogation
