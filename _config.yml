@@ -18,7 +18,7 @@ fb_app_id: 1653261584986384
 google_analytics_ua: UA-18276515-5
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://staging.critique-gaming.com" # the base hostname & protocol for your site
+url: "https://critique-gaming.com" # the base hostname & protocol for your site
 
 twitter_username: Critique_Gaming
 facebook_username:  CritiqueGaming
