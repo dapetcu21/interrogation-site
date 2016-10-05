@@ -1,9 +1,15 @@
 (function () {
   var elem = window.document.body;
 
+  function getDocumentScrollTop(doc) {
+    doc = doc || document;
+    // doc.body.scrollTop is IE quirkmode only
+    return Math.max(doc.documentElement.scrollTop, doc.body.scrollTop);
+  }
+
   var scrolledState = false;
   function onScroll() {
-    var newState = window.scrollY > 30;
+    var newState = getDocumentScrollTop() > 30;
     if (newState === scrolledState) { return; }
     scrolledState = newState;
     if (scrolledState) {
