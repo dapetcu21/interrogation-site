@@ -41,7 +41,14 @@
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
+      &.social-buttons {
+        margin-right: 5px;
+      }
     }
+  }
+
+  .social-buttons {
+    text-decoration: none;
   }
 
   .nav-trigger {
@@ -89,12 +96,14 @@
 
     .page-link {
       display: block;
-      padding: 5px 10px;
+      padding: 5px 10px 5px 25px;
 
       &:not(:last-child) {
         margin-right: 0;
+        &.social-buttons {
+          margin-right: 0;
+        }
       }
-      margin-left: 20px;
     }
   }
 }
@@ -123,6 +132,16 @@
     line-height: $base-line-height;
     display: block;
     padding: 5px 0;
+  }
+
+  .social-buttons {
+    padding: 5px 0;
+
+    > a {
+      color: $text-color;
+      line-height: $base-line-height;
+      text-decoration: none;
+    }
   }
 }
 

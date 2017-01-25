@@ -18,6 +18,12 @@
           <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
           {% endif %}
         {% endfor %}
+        <a class="social-buttons page-link" href="https://facebook.com/CritiqueGaming">
+          <i class="fa fa-fw fa-lg fa-facebook-square"></i>
+        </a>
+        <a class="social-buttons page-link" href="https://twitter.com/Critique_Gaming">
+          <i class="fa fa-fw fa-lg fa-twitter-square"></i>
+        </a>
       </div>
     </nav>
 
@@ -27,6 +33,7 @@
         <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
         {% endif %}
       {% endfor %}
+      {% include social_buttons.html %}
     </nav>
     <nav class="site-nav-back">
       {% for my_page in site.nav_links %}
@@ -34,6 +41,7 @@
         <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
         {% endif %}
       {% endfor %}
+      {% include social_buttons.html %}
     </nav>
   </div>
 
