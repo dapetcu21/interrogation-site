@@ -1,5 +1,8 @@
 # Interrogation
 
-Interrogation is a narrative game that emulates the atmosphere of dark investigation procedurals to put the player in the detective’s seat and challenge their preconceptions with noire intensity. The game is intended to emulate the tropes related to interrogation scenes in pop-culture while also offering some deconstruction. It plays as a questions-based puzzle against a (5 minute) clock in which the player must manage the emotions of suspects and interpret information into discovering details about future terrorist attacks. [Find out more!](/interrogation)
+Interrogation is a mature narrative puzzle game with RPG elements that emulates the atmosphere of dark investigation procedurals to put the player in the detective’s seat and challenge their preconceptions about terrorism and the fight against it with noire intensity. The game offers some deconstruction upon the tropes related to interrogation scenes in pop-culture and about the nuances of terrorism by playing as a question-based puzzle.
+
+Immerse yourself into the world of an investigator having to deal with a new wave of terrorist threats. Try to understand your suspects and to manipulate their emotions into getting the information that you want. Make relevant story decisions and get to deal with the Liberation Front in your own way. Get to know who they are and construct your own opinion about them and their actions.
+ [Find out more!](/interrogation)
 
 [<img src="/images/interrogation_banner.png">](/interrogation)
