@@ -5,4 +5,4 @@ Interrogation is a mature narrative puzzle game with RPG elements that emulates 
 Immerse yourself into the world of an investigator having to deal with a new wave of terrorist threats. Try to understand your suspects and to manipulate their emotions into getting the information that you want. Make relevant story decisions and get to deal with the Liberation Front in your own way. Get to know who they are and construct your own opinion about them and their actions.
  [Find out more!](/interrogation)
 
-[<img src="/images/interrogation_banner.png">](/interrogation)
+[<img src="/images/interrogation_banner.jpg">](/interrogation)
