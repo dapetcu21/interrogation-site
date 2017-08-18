@@ -32,7 +32,7 @@ Beyond each interrogation lies the fight against the Liberation Front. Where do 
 
 Lives are at stake.
 
-#Gameplay
+# Gameplay
 
 Interrogation aims to be a mature narrative puzzle game, having players piece together information, study and manipulate the emotional states of their subjects.
 
