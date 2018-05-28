@@ -24,11 +24,11 @@ The Liberation Front’s influence is expanding further and further. Whispers ab
 
 You need to pierce the minds of your suspects and work your way to the truth, through intimidation, guile or empathy. You must understand their motivations and make hard choices about your methods. To what lengths are you willing to go to attain your goals?
 
-![](/images/screenshots/file.jpg)
+![](/images/screenshots/Screenshot_1.jpg)
 
 Beyond each interrogation lies the fight against the Liberation Front. Where do you stand on their demands and their views? Will you engage in all-out war or will you attempt to get close to them? What if you get too close?
 
-![](/images/screenshots/end-screen.jpg)
+![](/images/screenshots/Screenshot_5.jpg)
 
 Lives are at stake.
 
@@ -40,7 +40,7 @@ Interrogation aims to be a mature narrative puzzle game, having players piece to
 
 Outside the interrogation phases, the campaign phases ask you to decide how to allocate resources and perks, as well as to make major story decisions with consequences both immediate as well as reaching into future chapters. Ethics, morality and efficiency are all factors that will need to be balanced. Or not. Your call.
 
-![](/images/screenshots/perk_screen.jpg)
+![](/images/screenshots/Screenshot_4.jpg)
 
 What tools will you employ to face the Liberation Front?
 
@@ -48,17 +48,17 @@ What tools will you employ to face the Liberation Front?
 
 All of Interrogation's art and sound is built around a feeling of tension. The almost-monochrome art focuses the action on the narration, pointing to the realistic nuanced personalities of the characters, while the custom music conveys the imminent danger that the player is working against and the serious nature of the challenge.
 
-![](/images/screenshots/Screenshot_1.jpg)
-
 ![](/images/screenshots/Screenshot_2.jpg)
 
 ![](/images/screenshots/Screenshot_3.jpg)
 
-![](/images/screenshots/Screenshot_4.jpg)
-
-![](/images/screenshots/Screenshot_5.jpg)
-
 ![](/images/screenshots/Screenshot_6.jpg)
+
+![](/images/screenshots/Screenshot_7.jpg)
+
+![](/images/screenshots/Screenshot_8.jpg)
+
+![](/images/screenshots/Screenshot_9.jpg)
 
 # Press kit
 
