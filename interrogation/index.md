@@ -46,7 +46,7 @@ What tools will you employ to face the Liberation Front?
 
 # Screenshots
 
-All of Interrogation's art and sound is built around tension. The custom music conveys, with increasing tempo, the imminent danger that the player is working against and the serious nature of the challenge, with a darker soundtrack when losing or the enhanced interrogation sound effects. The almost-monochrome art also focuses the action on the narration, pointing to the realistic nuanced personalities of the characters.
+All of Interrogation's art and sound is built around a feeling of tension. The almost-monochrome art focuses the action on the narration, pointing to the realistic nuanced personalities of the characters, while the custom music conveys the imminent danger that the player is working against and the serious nature of the challenge.
 
 ![](/images/screenshots/Screenshot_1.jpg)
 
@@ -59,10 +59,6 @@ All of Interrogation's art and sound is built around tension. The custom music c
 ![](/images/screenshots/Screenshot_5.jpg)
 
 ![](/images/screenshots/Screenshot_6.jpg)
-
-# Prototype
-
-Currently, Interrogation is just a prototype. Within it we depict, over the course of 2 simplified bare-bones episodes, the current version of the core game mechanics together with the atmosphere and vibe of the game. The current prototype puts you in the role of the interrogator that is tasked with finding out the location of a bomb within five minutes from the three subjects you have in separate interrogation rooms. Which one placed it? How can you get them to talk? Can you do it without too many unethical practices? It will take a few playthroughs to know. [on Itch.io](https://critique-gaming.itch.io/interrogation)
 
 # Press kit
 
