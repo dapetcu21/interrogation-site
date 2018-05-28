@@ -36,7 +36,7 @@ Lives are at stake.
 
 Interrogation aims to be a mature narrative puzzle game, having players piece together information, study and manipulate the emotional states of their subjects.
 
-![](/images/screenshots/diana_grin.gif)
+<video src="/images/screenshots/gameplay_short.mp4" class="w100" autoplay loop ></video>
 
 Outside the interrogation phases, the campaign phases ask you to decide how to allocate resources and perks, as well as to make major story decisions with consequences both immediate as well as reaching into future chapters. Ethics, morality and efficiency are all factors that will need to be balanced. Or not. Your call.
 

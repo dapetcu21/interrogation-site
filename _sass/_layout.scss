@@ -200,11 +200,17 @@ html.ie9 { // IE <= 9 doesn't support backface-visibility
   text-align: justify;
 }
 
-.page-content img {
+.page-content img,
+.page-content video {
   display: block;
   &.mw50 { max-width: 50%; }
   &.mw75 { max-width: 75%; }
   &.mw66 { max-width: 66%; }
+  &.mw100 { max-width: 100%; }
+  &.w50 { width: 50%; height: auto; }
+  &.w75 { width: 75%; height: auto; }
+  &.w66 { width: 66%; height: auto; }
+  &.w100 { width: 100%; height: auto; }
   @include media-query($on-palm) {
     max-width: 100% !important;
   }
