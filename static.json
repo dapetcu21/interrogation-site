@@ -1,0 +1,10 @@
+{
+  "clean_urls": true,
+  "redirects": {
+    "/privacy": {
+      "url": "https://www.iubenda.com/privacy-policy/86899654",
+      "status": 302
+    }
+  },
+  "root": "_site/"
+}
