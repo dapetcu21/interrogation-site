@@ -6,11 +6,11 @@ og_image: /images/og_image_interrogation.jpg
 ---
 <img class="page-logo interrogation-logo" src="{{ "/images/interrogation_logo.jpg" | prepend: site.baseurl }}">
 
-# Trailer
-
 <div class="yt-container">
 <iframe src="//www.youtube.com/embed/7TgTnJkIl2s" frameborder="0" allowfullscreen class="yt-video"></iframe>
 </div>
+
+{% include newsletter.html %}
 
 # About
 
