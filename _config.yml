@@ -6,35 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Critique Gaming
+title: Interrogation
 email: office@critique-gaming.com
-description: We're a video game development company, based in Bucharest, Romania, excited about producing socially responsible video games.
+description: "Be the lead detective that brings down a mysterious terrorist organization: The Liberation Front. Use a complex conversational simulation system to interrogate and psychologically manipulate realistic suspects in a noir game about political radicalization and authority abuse."
 
-og_image: /images/og_image.jpg
+og_image: /images/og_image_interrogation.jpg
 og_image_width: 1200
 og_image_height: 1200
 og_type: website
-fb_app_id: 1653261584986384
-google_analytics_ua: UA-18276515-5
+google_analytics_ua: UA-120238989-4
 
-url: "https://critique-gaming.com" # the base hostname & protocol for your site
-
-twitter_username: Critique_Gaming
-facebook_username:  CritiqueGaming
-instagram_username: critiquegaming
+url: "https://interrogation-game.com" # the base hostname & protocol for your site
 
 excerpt_separator: "<!--more-->"
-nav_links:
-  - title: Interrogation
-    url: /interrogation
-  - title: Blog
-    url: /blog
-  - title: About
-    url: /#about
-  - title: Contact
-    url: /#contact
-  - title: Press kit
-    url: https://presskit.critique-gaming.com
 
 # Build settings
 markdown: kramdown

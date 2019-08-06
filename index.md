@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Interrogation by Critique Gaming
+title: Interrogation
 og_description: Interrogation is a narrative game that emulates the atmosphere of dark investigation procedurals to put the player in the detective’s seat and challenge their preconceptions with noire intensity.
 og_image: /images/og_image_interrogation.jpg
 ---
@@ -58,6 +58,14 @@ All of Interrogation's art and sound is built around a feeling of tension. The a
 
 ![](/images/screenshots/Screenshot_9.jpg)
 
-# Press kit
+# Contact
 
-If you are press, don't forget to visit our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation).
+Developed by [Critique Gaming](https://critique-gaming.com).
+
+Published by [Mixtvision](https://mixtvision.games).
+
+For inquiries or just to say hello: [office@critique-gaming.com](mailto:office@critique-gaming.com).
+
+For bugs and technical support: [support@critique-gaming.com](mailto:support@critique-gaming.com).
+
+If you are press, check out our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation).
