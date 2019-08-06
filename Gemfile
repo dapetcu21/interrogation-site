@@ -5,3 +5,4 @@ gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'jekyll-autoprefixer'
+gem 'github-pages', group: :jekyll_plugins
