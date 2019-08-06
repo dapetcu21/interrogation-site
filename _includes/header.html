@@ -15,7 +15,7 @@
       <div class="trigger">
         {% for my_page in site.nav_links %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}.</a>
           {% endif %}
         {% endfor %}
         <a class="social-buttons page-link" href="https://facebook.com/{{ site.facebook_username }}">
@@ -33,7 +33,7 @@
     <nav class="site-nav-front">
       {% for my_page in site.nav_links %}
         {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}.</a>
         {% endif %}
       {% endfor %}
       {% include social_buttons.html %}
@@ -41,7 +41,7 @@
     <nav class="site-nav-back">
       {% for my_page in site.nav_links %}
         {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}.</a>
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}.</a>
         {% endif %}
       {% endfor %}
       {% include social_buttons.html %}
