@@ -4,7 +4,7 @@ title: Interrogation by Critique Gaming
 og_description: Interrogation is a narrative game that emulates the atmosphere of dark investigation procedurals to put the player in the detective’s seat and challenge their preconceptions with noire intensity.
 og_image: /images/og_image_interrogation.jpg
 ---
-<img class="page-logo interrogation-logo" src="{{ "/images/interrogation_logo.jpg" | prepend: site.baseurl }}">
+<img class="page-logo interrogation-logo" src="{{ "/images/interrogation_logo.jpg" | relative_url }}">
 
 <div class="yt-container">
 <iframe src="//www.youtube.com/embed/8sIeD_oal2U" frameborder="0" allowfullscreen class="yt-video"></iframe>

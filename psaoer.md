@@ -5,7 +5,7 @@ og_description: Interrogation is a narrative game that emulates the atmosphere o
 og_image: /images/og_image_interrogation.jpg
 ---
 
-<img class="page-logo interrogation-logo" src="{{ "/images/interrogation_logo.jpg" | prepend: site.baseurl }}">
+<img class="page-logo interrogation-logo" src="{{ "/images/interrogation_logo.jpg" | relative_url }}">
 
 # Dovada deținere domeniu
 

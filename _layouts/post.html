@@ -38,7 +38,7 @@ layout: default
 </article>
 
 {% if site.fb_app_id %}
-{% capture og_url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
+{% capture og_url %}{{ page.url | replace:'index.html','' | relative_url | prepend: site.url }}{% endcapture %}
 <div class="fb-comments-container">
   <div class="fb-comments" data-href="{{ og_url }}" data-numposts="5" data-colorscheme="dark" data-width="100%">
   </div>
