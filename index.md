@@ -60,9 +60,16 @@ All of Interrogation's art and sound is built around a feeling of tension. The a
 
 # Contact
 
-Developed by [Critique Gaming](https://critique-gaming.com).
+<div class="company-logos">
+  <a class="company-logo" href="https://critique-gaming.com">
+    <img src="{{ "/images/critique_logo_white.svg" | relative_url }}" />
+  </a>
+  <a class="company-logo" href="http://mixtvision.games">
+    <img src="{{ "/images/mixtvision_logo_white.svg" | relative_url }}" />
+  </a>
+</div>
 
-Published by [Mixtvision](https://mixtvision.games).
+Developed by [Critique Gaming](https://critique-gaming.com), published by [Mixtvision](http://mixtvision.games).
 
 For inquiries or just to say hello: [office@critique-gaming.com](mailto:office@critique-gaming.com).
 

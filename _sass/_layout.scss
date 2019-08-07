@@ -348,3 +348,21 @@ html.ie9 { // IE <= 9 doesn't support backface-visibility
   margin-left: -8px;
   width: calc(100% + 16px);
 }
+
+.company-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.company-logo {
+  flex: 1;
+
+  & > img {
+    width: 100%;
+  }
+
+  &:first-child {
+    margin-right: 40px;
+  }
+}
