@@ -78,3 +78,7 @@ For inquiries or just to say hello: [office@critique-gaming.com](mailto:office@c
 For bugs and technical support: [support@critique-gaming.com](mailto:support@critique-gaming.com).
 
 If you are press, check out our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation).
+
+Are you press and want a review key for the game? Request one here:
+
+<iframe height="50px" scrolling="no" src="https://embed.keymailer.co/g/games/31571/request_button/_ea7e210b52" style="border: none" width="200px"></iframe>
