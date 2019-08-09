@@ -16,7 +16,7 @@ og_image: /images/og_image_interrogation.jpg
 
 # About
 
-**Interrogation** is a difficult noire detective game about ethics, morality, radicalization and the nature of authority. Strategically manage the special police department tasked with bringing down a terrorist organization which threatens the very structure of society: _The Liberation Front_. Uncover their mysteries in iconic movie-like Interrogation scenes, using a complex conversation simulation system. Solve hard conversational puzzles by psychologically manipulating realistic suspects. Decide their fate, your fate and the city’s. 
+**Interrogation** is a difficult noire detective game about ethics, morality, radicalization and the nature of authority. Strategically manage the special police department tasked with bringing down a terrorist organization which threatens the very structure of society: _The Liberation Front_. Uncover their mysteries in iconic movie-like Interrogation scenes, using a complex conversation simulation system. Solve hard conversational puzzles by psychologically manipulating realistic suspects. Decide their fate, your fate and the city’s.
 
 # Story
 
