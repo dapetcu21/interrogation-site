@@ -274,10 +274,6 @@ html.ie9 { // IE <= 9 doesn't support backface-visibility
  text-align: left;
 }
 
-.interrogation-logo {
-  margin-bottom: 0;
-}
-
 .yt-container {
   position: relative;
   width: 100%;
@@ -366,3 +362,13 @@ html.ie9 { // IE <= 9 doesn't support backface-visibility
     margin-right: 40px;
   }
 }
+
+.interrogation-header {
+}
+
+.interrogation-logo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+

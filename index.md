@@ -1,10 +1,18 @@
 ---
-layout: default
+layout: home
 title: Interrogation
 og_description: Interrogation is a narrative game that emulates the atmosphere of dark investigation procedurals to put the player in the detective’s seat and challenge their preconceptions with noire intensity.
 og_image: /images/og_image_interrogation.jpg
 ---
-<img class="page-logo interrogation-logo" src="{{ "/images/interrogation_logo.jpg" | relative_url }}">
+
+<div class="interrogation-header">
+  <div class="wrapper">
+    <img class="interrogation-logo" src="{{ "/images/interrogation_keyart.jpg" | relative_url }}" />
+  </div>
+</div>
+
+<div class="page-content">
+<div class="wrapper" markdown="block">
 
 <div class="yt-container">
 <iframe src="//www.youtube.com/embed/wJHSOmjxqiY" frameborder="0" allowfullscreen class="yt-video"></iframe>
@@ -80,3 +88,5 @@ For inquiries or just to say hello: [contact@interrogation-game.com](mailto:cont
 For bugs and technical support: [support@interrogation-game.com](mailto:support@interrogation-game.com)
 
 If you are press, check out our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation) and contact us at [press@interrogation-game.com](mailto:press@interrogation-game.com).
+
+</div></div>
