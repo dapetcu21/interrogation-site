@@ -73,8 +73,8 @@ All of Interrogation's art and sound is built around a feeling of tension. The a
 
 Developed by [Critique Gaming](https://critique-gaming.com), published by [Mixtvision](https://mixtvision.games).
 
-For inquiries or just to say hello: [office@critique-gaming.com](mailto:office@critique-gaming.com).
+For inquiries or just to say hello: [contact@interrogation-game.com](mailto:contact@interrogation-game.com)
 
-For bugs and technical support: [support@critique-gaming.com](mailto:support@critique-gaming.com).
+For bugs and technical support: [support@interrogation-game.com](mailto:support@interrogation-game.com)
 
-If you are press, check out our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation).
+If you are press, check out our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation) and contact us at [press@interrogation-game.com](mailto:press@interrogation-game.com).
