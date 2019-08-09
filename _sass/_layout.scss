@@ -1,180 +1,4 @@
 /**
-* Site header
-*/
-.site-header {
-  top: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: 1000;
-
-  @include media-query($on-laptop) {
-    border-bottom: $grey-color-light solid 1px;
-    background-color: $background-color;
-
-    @include media-query($on-palm) {
-      border-bottom: none;
-      background-color: transparent;
-    }
-  }
-}
-
-.site-nav {
-  display: none;
-  @include media-query($on-laptop) {
-    display: block;
-  }
-}
-
-.site-nav {
-  float: right;
-  line-height: 56px;
-
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-      &.social-buttons {
-        margin-right: 5px;
-      }
-    }
-  }
-
-  .social-buttons {
-    text-decoration: none;
-  }
-
-  .nav-trigger {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-  }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        width: 18px;
-        height: 15px;
-
-        path {
-          fill: $text-color;
-        }
-      }
-    }
-
-    .trigger {
-      clear: both;
-      display: none;
-    }
-
-    .nav-trigger:checked + .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px 5px 25px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-        &.social-buttons {
-          margin-right: 0;
-        }
-      }
-    }
-  }
-}
-
-.site-nav-wrapper {
-  position: relative;
-  perspective: 1000px;
-}
-
-.site-nav-front,
-.site-nav-back {
-  @include media-query($on-laptop) {
-    display: none;
-  }
-
-  position: absolute;
-  top: $spacing-unit;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-
-  transition: all .3s ease-in-out;
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-    display: block;
-    padding: 5px 0;
-  }
-
-  .social-buttons {
-    padding: 5px 0;
-
-    > a {
-      color: $text-color;
-      line-height: $base-line-height;
-      text-decoration: none;
-    }
-  }
-}
-
-.site-nav-front {
-  transform-origin: 100% 50%;
-  right: 15px;
-  padding-right: 15px;
-  z-index: 1; // To fix Safari bug
-  .page-link { text-align: right; }
-}
-
-.site-nav-back {
-  transform-origin: 0% 50%;
-  left: $content-width - 15px;
-  padding-left: 15px;
-  .page-link { text-align: left; }
-}
-
-.site-nav-back { transform: rotateY(-180deg); }
-body.scrolled {
-  .site-nav-front { transform: rotateY(180deg); }
-  .site-nav-back { transform: rotateY(0); }
-}
-
-html.ie9 { // IE <= 9 doesn't support backface-visibility
-  .site-nav-back { display: none; transform: rotateY(0); }
-  body.scrolled {
-    .site-nav-front { display: none; transform: rotateY(0); }
-    .site-nav-back { display: block; transform: rotateY(0); }
-  }
-}
-
-/**
 * Logo
 */
 .page-logo {
@@ -372,3 +196,22 @@ html.ie9 { // IE <= 9 doesn't support backface-visibility
   display: block;
 }
 
+.social-buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: -40px auto 48px auto;
+
+  & > a {
+    display: block;
+    font-size: 32px;
+    padding: 4px;
+    color: #fff;
+    text-decoration: none;
+    &:hover, &:focus {
+      opacity: 0.5;
+    }
+  }
+}

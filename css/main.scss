@@ -52,7 +52,8 @@ $on-laptop:        $content-width + ($flip-nav-width - 15px) * 2;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "font-awesome/font-awesome",
+        "font-awesome/fontawesome",
+        "font-awesome/brands",
         "lato",
         "base",
         "layout",

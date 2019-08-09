@@ -14,6 +14,8 @@ og_image: /images/og_image_interrogation.jpg
 <div class="page-content">
 <div class="wrapper" markdown="block">
 
+{% include social_buttons.html %}
+
 <div class="yt-container">
 <iframe src="//www.youtube.com/embed/wJHSOmjxqiY" frameborder="0" allowfullscreen class="yt-video"></iframe>
 </div>
