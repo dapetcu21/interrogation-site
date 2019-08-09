@@ -89,6 +89,6 @@ For inquiries or just to say hello: [contact@interrogation-game.com](mailto:cont
 
 For bugs and technical support: [support@interrogation-game.com](mailto:support@interrogation-game.com)
 
-If you are press, check out our [press kit](https://presskit.critique-gaming.com/sheet.php?p=interrogation) and contact us at [press@interrogation-game.com](mailto:press@interrogation-game.com).
+If you are press, check out our [press kit](https://presskit.critique-gaming.com/interrogation/) and contact us at [press@interrogation-game.com](mailto:press@interrogation-game.com).
 
 </div></div>
