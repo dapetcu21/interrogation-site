@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Interrogation
-og_description: Interrogation is a narrative game that emulates the atmosphere of dark investigation procedurals to put the player in the detective’s seat and challenge their preconceptions with noire intensity.
+og_description: Be the lead detective that brings down a mysterious terrorist organisation: The Liberation Front. Use a complex conversational simulation system to interrogate and psychologically manipulate realistic suspects in a noir game about political radicalisation and authority abuse.
 og_image: /images/og_image_interrogation.jpg
 ---
 
@@ -23,7 +23,7 @@ og_image: /images/og_image_interrogation.jpg
 
 # About
 
-**Interrogation** is a difficult noire detective game about ethics, morality, radicalization and the nature of authority. Strategically manage the special police department tasked with bringing down a terrorist organisation which threatens the very structure of society: _The Liberation Front_. Uncover their mysteries in iconic movie-like Interrogation scenes, using a complex conversation simulation system. Solve hard conversational puzzles by psychologically manipulating realistic suspects. Decide their fate, your fate and the city’s.
+**Interrogation** is a difficult noire detective game about ethics, morality, radicalisation and the nature of authority. Strategically manage the special police department tasked with bringing down a terrorist organisation which threatens the very structure of society: _The Liberation Front_. Uncover their mysteries in iconic movie-like Interrogation scenes, using a complex conversation simulation system. Solve hard conversational puzzles by psychologically manipulating realistic suspects. Decide their fate, your fate and the city’s.
 
 <div class="clear"></div>
 
