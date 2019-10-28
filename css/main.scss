@@ -13,7 +13,7 @@ $header-font-weight: 200;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     16px;
 
 $text-color:       #fdfdfd;
 $background-color: #000;
@@ -27,11 +27,10 @@ $small-text-color: darken($text-color, 15%);
 $pre-color:        #404040;
 
 // Width of the content area
-$content-width:    700px;
-$flip-nav-width:   130px;
+$content-width:    1000px;
 
 $on-palm:          600px;
-$on-laptop:        $content-width + ($flip-nav-width - 15px) * 2;
+$on-tablet:        $content-width;
 
 
 
@@ -44,6 +43,12 @@ $on-laptop:        $content-width + ($flip-nav-width - 15px) * 2;
 // }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin media-query-not($device) {
+    @media screen and (min-width: ($device + 1px)) {
         @content;
     }
 }
