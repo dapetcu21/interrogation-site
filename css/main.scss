@@ -27,10 +27,11 @@ $small-text-color: darken($text-color, 15%);
 $pre-color:        #404040;
 
 // Width of the content area
-$content-width:    1000px;
+$content-width-landing:    1000px;
+$content-width:            640px;
 
 $on-palm:          600px;
-$on-tablet:        $content-width;
+$on-tablet:        $content-width-landing;
 
 
 

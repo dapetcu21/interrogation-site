@@ -6,11 +6,26 @@
 * Page content
 */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: $spacing-unit * 2 0;
+}
+
+.page-content-landing {
+  padding-top: $spacing-unit;
 }
 
 .page-content p {
   text-align: justify;
+}
+
+.page-content hr {
+  margin: $spacing-unit 0;
+}
+
+.page-content {
+  h1 { margin-top: $spacing-unit; }
+  h2 { margin-top: $spacing-unit; }
+  h3 { margin-top: $spacing-unit; }
+  hr { margin: $spacing-unit 0; }
 }
 
 .separator1 {
@@ -249,7 +264,7 @@ $side-col: 60%;
 }
 
 .interrogation-header {
-  & .wrapper {
+  & .wrapper-landing {
     position: relative;
   }
 }
