@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="3;url=https://interrogation-game.com/" />
+    <title>Interrogation</title>
+  </head>
+  <body>
+    <div class="redirect">
+      Redirecting...
+    </div>
+    <style>
+      html, body {
+        background-color: #000;
+      }
+      .redirect {
+        color: #fff;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+    </style>
+    <script>
+      (function () {
+        function redir(url) {
+          // Forward search params (like UTM)
+          var search = window.location.search || ""
+          if (search[0] == "?" && url.indexOf("?") != -1) {
+            search = "&" + search.substr(1)
+          }
+          url = url + search
+
+          if (window.location.replace) {
+            try {
+              window.location.replace(url)
+              return
+            } catch (ex) {}
+          }
+          window.location.assign(url)
+        }
+
+        if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+          redir('http://itunes.apple.com/us/app/interrogation-deceived/id1495159910')
+        } else if (/android/i.test(navigator.userAgent)) {
+          redir('http://play.google.com/store/apps/details?id=com.mixtvision.interrogation')
+        } else {
+          redir('https://interrogation-game.com/')
+        }
+      })();
+    </script>
+  </body>
+</html>
